@@ -34,17 +34,7 @@
     "href": "index.html#sample-data-preview",
     "title": "Welcome to My Website!",
     "section": "Sample Data Preview",
-    "text": "Sample Data Preview\nBelow is a preview of the Gentrification Index Data:",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#load-necessary-libraries",
-    "href": "index.html#load-necessary-libraries",
-    "title": "Welcome to My Website!",
-    "section": "Load necessary libraries",
-    "text": "Load necessary libraries\nlibrary(readr) library(dplyr)",
+    "text": "Sample Data Preview\nBelow is a preview of the Gentrification Index Data:\n```{r} ## Load necessary libraries library(readr) library(dplyr)",
     "crumbs": [
       "Home"
     ]
