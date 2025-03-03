@@ -37,7 +37,7 @@ title: "Data"
 This project examines **NYC gentrification trends** using publicly available datasets. Below is a summary of the key data sources utilized:
 
 | Dataset Name | Description | Link |
-|----|----|----|
+|------------------|------------------------|------------------------------|
 | **Gentrification Index Data** | Provides a comprehensive index measuring gentrification across NYC neighborhoods. | [Access Dataset](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/O56ZMB) |
 | **Building Footprints** | Shapefile of building outlines in New York City, useful for spatial analysis. | [Download Shapefile](https://data.cityofnewyork.us/Housing-Development/gentrification/fuea-9amr) |
 | **Gentrification and Displacement Map** | Interactive map highlighting areas undergoing gentrification and displacement. | [View Map](https://www.urbandisplacement.org/maps/new-york-gentrification-and-displacement/) |
@@ -61,23 +61,7 @@ To analyze NYC gentrification, the following data processing steps were undertak
     -   Conducted statistical analyses to identify trends and correlations.
     -   Created maps and charts to illustrate changes in demographics, housing prices, and displacement over time.
 
-## Sample Data Preview
 
-Below is a preview of the **Gentrification Index Data**:
-
-\`\`\`{r} \## Load necessary libraries library(readr) library(dplyr)
-
-## Load the Gentrification Index Data
-
-gentrification_data \<- read_csv("data/gentrification_index.csv")
-
-## Display the first few rows of the dataset
-
-head(gentrification_data, 5)
-
----
-title: 
----
 
 # Letter about NYC gentrification
 
