@@ -11,8 +11,6 @@ website:
         href: index.qmd
       - text: "Map or Visualization"
         href: map.qmd
-      - text: "Data"
-        href: data.qmd
       - text: "Open Letter"
         href: Letter.qmd
       - text: "About"
