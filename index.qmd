@@ -1,0 +1,93 @@
+---
+title: "Home"
+---
+
+# Welcome to My Website!
+
+This website provides insights into my project, including data visualizations, sources, and an open letter.
+
+Navigate through the search to explore different sections!
+
+---
+title: "About"
+---
+
+# About This Project
+
+This project explores NYC gentrification trends through data analysis, visualizations, and policy discussions. By examining changes in demographics, housing affordability, and eviction rates, this project aims to raise awareness about the impacts of gentrification on local communities. Using publicly available datasets and interactive maps, this website presents key insights into displacement patterns and advocates for equitable policies to protect vulnerable residents. The project serves as a resource for understanding gentrification's effects and promoting dialogue about solutions for inclusive urban development.
+
+---
+title: "Map or Visualization"
+---
+
+# Interactive Map
+
+Below is an embedded **ArcGIS Map** related to this project.
+
+<iframe width="100%" height="500" src="https://www.arcgis.com/apps/dashboards/a9a93b62e59a461c832007916740bd19"></iframe>
+
+
+---
+title: "Data"
+---
+
+# Data Sources
+
+This project examines **NYC gentrification trends** using publicly available datasets. Below is a summary of the key data sources utilized:
+
+| Dataset Name               | Description                                                                 | Link                                                                                           |
+|----------------------------|-----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| **Gentrification Index Data** | Provides a comprehensive index measuring gentrification across NYC neighborhoods. | [Access Dataset](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/O56ZMB) |
+| **Building Footprints**    | Shapefile of building outlines in New York City, useful for spatial analysis. | [Download Shapefile](https://data.cityofnewyork.us/Housing-Development/gentrification/fuea-9amr) |
+| **Gentrification and Displacement Map** | Interactive map highlighting areas undergoing gentrification and displacement. | [View Map](https://www.urbandisplacement.org/maps/new-york-gentrification-and-displacement/) |
+| **Gentrification Data Repository** | Collection of datasets and analytical code related to NYC gentrification. | [GitHub Repository](https://github.com/reneeonque/gentrification-data) |
+| **Airbnb and Gentrification Study** | Research data exploring the relationship between Airbnb listings and gentrification patterns. | [Read Study](https://arxiv.org/abs/2101.05924) |
+
+## Data Processing Steps
+
+To analyze NYC gentrification, the following data processing steps were undertaken:
+
+1. **Data Acquisition**
+   - Collected datasets from reputable sources such as NYC Open Data, academic repositories, and research publications.
+
+2. **Data Cleaning & Standardization**
+   - Removed missing or inconsistent entries.
+   - Standardized column names and data formats for uniformity.
+   - Geocoded addresses to map data accurately.
+
+3. **Data Integration**
+   - Merged datasets based on geographic identifiers (e.g., census tracts, ZIP codes).
+   - Linked socioeconomic data with spatial datasets to visualize gentrification patterns.
+
+4. **Analysis & Visualization**
+   - Conducted statistical analyses to identify trends and correlations.
+   - Created maps and charts to illustrate changes in demographics, housing prices, and displacement over time.
+
+## Sample Data Preview
+
+Below is a preview of the **Gentrification Index Data**:
+
+```{r}
+## Load necessary libraries
+library(readr)
+library(dplyr)
+
+## Load the Gentrification Index Data
+gentrification_data <- read_csv("data/gentrification_index.csv")
+
+## Display the first few rows of the dataset
+head(gentrification_data, 5)
+
+
+---
+title: 
+---
+# Letter about NYC gentrification 
+
+<iframe width="100%" height="500" frameborder="0"
+  src="https://observablehq.com/embed/9d668532e63dc213?cell=*"></iframe>
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
