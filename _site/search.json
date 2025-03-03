@@ -1,8 +1,18 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome to My Website!",
+    "title": "Data",
     "section": "",
     "text": "This website provides insights into my project, including data visualizations, sources, and an open letter.\nNavigate through the search to explore different sections!",
     "crumbs": [
@@ -12,61 +22,11 @@
   {
     "objectID": "index.html#data-processing-steps",
     "href": "index.html#data-processing-steps",
-    "title": "Welcome to My Website!",
+    "title": "Data",
     "section": "Data Processing Steps",
     "text": "Data Processing Steps\nTo analyze NYC gentrification, the following data processing steps were undertaken:\n\nData Acquisition\n\nCollected datasets from reputable sources such as NYC Open Data, academic repositories, and research publications.\n\nData Cleaning & Standardization\n\nRemoved missing or inconsistent entries.\nStandardized column names and data formats for uniformity.\nGeocoded addresses to map data accurately.\n\nData Integration\n\nMerged datasets based on geographic identifiers (e.g., census tracts, ZIP codes).\nLinked socioeconomic data with spatial datasets to visualize gentrification patterns.\n\nAnalysis & Visualization\n\nConducted statistical analyses to identify trends and correlations.\nCreated maps and charts to illustrate changes in demographics, housing prices, and displacement over time.",
     "crumbs": [
       "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#sample-data-preview",
-    "href": "index.html#sample-data-preview",
-    "title": "Welcome to My Website!",
-    "section": "Sample Data Preview",
-    "text": "Sample Data Preview\nBelow is a preview of the Gentrification Index Data:\n```{r} ## Load necessary libraries library(readr) library(dplyr)",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#load-necessary-libraries",
-    "href": "index.html#load-necessary-libraries",
-    "title": "Welcome to My Website!",
-    "section": "Load necessary libraries",
-    "text": "Load necessary libraries\nlibrary(readr) library(dplyr)",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#load-the-gentrification-index-data",
-    "href": "index.html#load-the-gentrification-index-data",
-    "title": "Welcome to My Website!",
-    "section": "Load the Gentrification Index Data",
-    "text": "Load the Gentrification Index Data\ngentrification_data &lt;- read_csv(“data/gentrification_index.csv”)",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#display-the-first-few-rows-of-the-dataset",
-    "href": "index.html#display-the-first-few-rows-of-the-dataset",
-    "title": "Welcome to My Website!",
-    "section": "Display the first few rows of the dataset",
-    "text": "Display the first few rows of the dataset\nhead(gentrification_data, 5)",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site",
-    "crumbs": [
-      "About"
     ]
   }
 ]
